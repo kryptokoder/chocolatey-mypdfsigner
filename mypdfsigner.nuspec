@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>mypdfsigner</id>
+    <version>3.1.1</version>
+    <packageSourceUrl>https://github.com/kryptokoder/chocolatey-mypdfsigner</packageSourceUrl>
+    <owners>kryptokoder</owners>
+    <title>MyPDFSigner</title>
+    <authors>KryptoKoder LLC</authors>
+    <projectUrl>https://www.kryptokoder.com</projectUrl>
+    <iconUrl>https://www.kryptokoder.com/mypdfsigner200x200.png</iconUrl>
+    <copyright>© 2009-2020 KryptoKoder LLC</copyright>
+    <licenseUrl>https://www.kryptokoder.com/license.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://www.kryptokoder.com/manual.html</docsUrl>
+    <tags>mypdfsigner pdf digital signatures certificates pkcs#11 pkcs#12</tags>
+    <summary>A tool to sign PDFs</summary>
+    <description>MyPDFSigner is a tool to sign PDFs using tokens stored in PKCS#11 or PKCS#12 key stores. This software is fully functional without a license but adds the reason "Evaluating MyPDFSigner" to the signature.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
