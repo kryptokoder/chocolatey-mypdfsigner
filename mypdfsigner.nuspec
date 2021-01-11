@@ -3,14 +3,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>mypdfsigner</id>
-    <version>3.1.1</version>
+    <version>3.1.5</version>
     <packageSourceUrl>https://github.com/kryptokoder/chocolatey-mypdfsigner</packageSourceUrl>
     <owners>kryptokoder</owners>
     <title>MyPDFSigner</title>
     <authors>KryptoKoder LLC</authors>
     <projectUrl>https://www.kryptokoder.com</projectUrl>
     <iconUrl>https://www.kryptokoder.com/mypdfsigner200x200.png</iconUrl>
-    <copyright>© 2009-2020 KryptoKoder LLC</copyright>
+    <copyright>© 2009-2021 KryptoKoder LLC</copyright>
     <licenseUrl>https://www.kryptokoder.com/license.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <docsUrl>https://www.kryptokoder.com/manual.html</docsUrl>

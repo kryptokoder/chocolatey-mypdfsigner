@@ -1,8 +1,8 @@
 ﻿
 $ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://www.kryptokoder.com/MyPDFSigner-3.1.1-1-x86_64.exe'
-$url64      = 'https://www.kryptokoder.com/MyPDFSigner-3.1.1-1-x86_64.exe'
+$url        = 'https://www.kryptokoder.com/MyPDFSigner-3.1.5-1-x86_64.exe'
+$url64      = 'https://www.kryptokoder.com/MyPDFSigner-3.1.5-1-x86_64.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -12,7 +12,7 @@ $packageArgs = @{
 
   softwareName  = 'mypdfsigner*'
 
-  checksum64    = '0ae23cb05bffe78d26a0b8bd9a285c4c820e30285c1865db536a7922cfc758f4'
+  checksum64    = '8a4bb0d85a4a3e685acf002c0bb4eb4fa6301bd42464a9e44d8348e6ec47e4b7'
   checksumType64= 'sha256'
 
   validExitCodes= @(0, 3010, 1641)
