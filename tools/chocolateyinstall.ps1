@@ -1,7 +1,6 @@
 ﻿
 $ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://www.kryptokoder.com/MyPDFSigner-3.1.5-1-x86_64.exe'
 $url64      = 'https://www.kryptokoder.com/MyPDFSigner-3.1.5-1-x86_64.exe'
 
 $packageArgs = @{
